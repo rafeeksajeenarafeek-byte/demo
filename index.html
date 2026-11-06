@@ -1,0 +1,285 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Keezhmad Grama Panchayat</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f6f3;
+    color: #333;
+}
+
+header {
+    background: #075b38;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+header img {
+    width: 85px;
+    height: 85px;
+    object-fit: contain;
+}
+
+header h1 {
+    font-size: 30px;
+}
+
+nav {
+    background: #03452b;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f9dc75;
+}
+
+.hero {
+    background: #dcefe2;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.hero h2 {
+    color: #075b38;
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+.section {
+    background: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #00000012;
+}
+
+.section h2 {
+    color: #075b38;
+    margin-bottom: 15px;
+}
+
+.section p {
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.panchayat-image {
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.map-image {
+    width: 100%;
+    max-height: 600px;
+    object-fit: contain;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.info-card {
+    background: #e5f3e9;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.info-card h3 {
+    color: #075b38;
+    margin-bottom: 10px;
+}
+
+.website-link {
+    display: inline-block;
+    background: #075b38;
+    color: white;
+    padding: 13px 22px;
+    margin-top: 15px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.website-link:hover {
+    background: #0b8050;
+}
+
+footer {
+    background: #03452b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+@media(max-width:600px) {
+    header h1 {
+        font-size: 22px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 7px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="header-content">
+        <img src="Government of Kerala.jpg"
+             alt="Government of Kerala Logo">
+
+        <div>
+            <h1>KEEZHMAD GRAMA PANCHAYAT</h1>
+            <p>Aluva Taluk | Ernakulam District | Kerala</p>
+        </div>
+    </div>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#location">Location</a>
+    <a href="#map">Boundary Map</a>
+    <a href="#reference">Reference</a>
+</nav>
+
+<section class="hero" id="home">
+    <h2>Welcome to Keezhmad Grama Panchayat</h2>
+    <p>
+        A Geographical Overview of Keezhmad Panchayat,
+        Aluva Taluk, Ernakulam District, Kerala.
+    </p>
+</section>
+
+<div class="container">
+
+    <section class="section" id="about">
+        <h2>About Keezhmad Panchayat</h2>
+
+        <p>
+            Keezhmad Grama Panchayat is located in Aluva Taluk
+            of Ernakulam District, Kerala. This website presents
+            the geographical features, administrative location
+            and boundary details of Keezhmad Panchayat using
+            geographical information and mapping techniques.
+        </p>
+
+        <img src="Keezhmad PANCHAYATH.jpg"
+             alt="Keezhmad Panchayat"
+             class="panchayat-image">
+    </section>
+
+    <section class="section" id="location">
+        <h2>Geographical Location</h2>
+
+        <div class="info-grid">
+
+            <div class="info-card">
+                <h3>Panchayat</h3>
+                <p>Keezhmad</p>
+            </div>
+
+            <div class="info-card">
+                <h3>Taluk</h3>
+                <p>Aluva</p>
+            </div>
+
+            <div class="info-card">
+                <h3>District</h3>
+                <p>Ernakulam</p>
+            </div>
+
+            <div class="info-card">
+                <h3>State</h3>
+                <p>Kerala</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section" id="map">
+        <h2>Keezhmad Panchayat Boundary Map</h2>
+
+        <p>
+            The following map represents the geographical
+            boundary of Keezhmad Grama Panchayat.
+        </p>
+
+        <img src="BOUNDARY.png"
+             alt="Keezhmad Panchayat Boundary Map"
+             class="map-image">
+    </section>
+
+    <section class="section" id="reference">
+        <h2>Reference Website</h2>
+
+        <p>
+            Visit the following website for additional
+            information and reference.
+        </p>
+
+        <a class="website-link"
+           href="https://rafeeksajeenarafeek-byte.github.io/yu/"
+           target="_blank"
+           rel="noopener noreferrer">
+           Visit Reference Website
+        </a>
+    </section>
+
+</div>
+
+<footer>
+    <p>© 2026 Keezhmad Grama Panchayat</p>
+    <p>Geographical Information and Mapping Project</p>
+</footer>
+
+</body>
+</html>
